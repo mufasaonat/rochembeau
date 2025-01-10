@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0; charset=utf-8">
+        <title>ROCHAMBEAU</title>
+        <link rel="stylesheet" href="css/mystyle.css">
+    </head>
+    
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>ELEMENT EDGE</h1>
+            <span>Where Innovation Meets Precision</span>                
+        </div> 
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="rochambeau.html">RPS</a></li>
+                <li><a href="#">About Me</a></li>
+            </ul>
+        </div>
+        <div class="rochambeau">
+        <h1>ROCHAMBEAU</h1>
+        <button onclick="playGame('Rock');"><img src="img/rock.png" width="100" alt="rock"></button>    
+        <button onclick="playGame('Paper');"><img src="img/paper.png" width="100" alt="paper"></button>    
+        <button onclick="playGame('Scissors');"><img src="img/scissors.png" width="100" alt="scissors"></button>            
+        <button onclick="
+            score.wins = 0;
+            score.loses = 0;
+            score.ties = 0;        
+            document.getElementById('score').innerHTML = ('Wins: ' + score.wins + ' Loses: ' + score.loses + ' Ties: ' + score.ties);">
+            <img src="img/reset.png" width="100" alt="reset">
+        </button>
+        <h3 id="score">SCORES:</h3>
+        </div>
+        <div class="row"></div>
+    </div>
+</body>
+  
+    <script src="js/rocham-script.js">    
+    </script>
+</html>
+
+
+

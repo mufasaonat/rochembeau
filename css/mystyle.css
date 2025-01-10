@@ -1,0 +1,56 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .image img {
+        width: 100%; /* Make the image responsive */
+        height: auto;
+    }
+}
+.body{
+    background-color: #f0f0f0;            
+}
+.image img{
+    padding-top: 20px;
+    width: 500px;
+}
+.container{
+    width: 500px;            
+    margin-left: 350px;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+}
+.head{
+    text-align: center;
+    padding: 5px 5px 15px 5px;
+}    
+.nav-bar{
+    background-color: bisque;
+} 
+ul{
+    list-style: none;
+}
+ul,li{
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 30px;;
+}
+ul,li,a{
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover{
+    color: white;
+    background-color: blanchedalmond;
+}
+a:active{
+    color: yellow;
+}
