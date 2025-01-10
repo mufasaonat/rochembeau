@@ -22,8 +22,8 @@
 }
 .container{
     width: 500px;            
-    margin-left: 350px;
-    margin-top: 50px;
+    margin-left: auto;
+    margin-top: auto;
 }
 h1{
     text-align: center;
